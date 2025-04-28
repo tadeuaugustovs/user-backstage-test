@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tadeuaugustocontato
+  annotations:
+    google.com/email: tadeuaugustocontato@gmail.com
+spec:
+  profile:
+    displayName: Tadeu Augusto (Google)
+    email: tadeuaugustocontato@gmail.com
+    picture: https://www.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png
+  memberOf: []
