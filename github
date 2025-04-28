@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: tadeuaugusto
+  annotations:
+    github.com/user-login: tadeuaugusto
+    google.com/email: tadeuaugusto@yahoo.com.br
+spec:
+  profile:
+    displayName: Tadeu Augusto (GitHub)
+    email: tadeuaugusto@yahoo.com.br
+    picture: https://avatars.githubusercontent.com/u/ID_DO_SEU_GITHUB
+  memberOf: []
