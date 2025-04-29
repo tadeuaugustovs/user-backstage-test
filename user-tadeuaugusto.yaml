@@ -4,10 +4,9 @@ metadata:
   name: tadeuaugusto
   annotations:
     github.com/user-login: tadeuaugusto
-    google.com/email: tadeuaugusto@yahoo.com.br
 spec:
   profile:
     displayName: Tadeu Augusto (GitHub)
     email: tadeuaugusto@yahoo.com.br
-    picture: https://avatars.githubusercontent.com/u/ID_DO_SEU_GITHUB
-  memberOf: [Inteligência Artificial]
+    picture: https://github.com/tadeuaugusto.png
+  memberOf: [ia]
