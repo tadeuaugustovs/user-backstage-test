@@ -2,8 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: grupos-e-usuarios
-  description: Grupos e usuários do LEDSHUB
+  description: Grupos e Usuários da Plataforma
 spec:
+  type: url
   targets:
-    - ./groups.yaml
-    - ./users.yaml
+    - https://raw.githubusercontent.com/tadeuaugustovs/user-backstage-test/main/groups.yaml
+    - https://raw.githubusercontent.com/tadeuaugustovs/user-backstage-test/main/users.yaml
