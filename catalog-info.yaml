@@ -1,0 +1,114 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: frontend
+  description: Equipe de desenvolvimento Frontend
+spec:
+  type: team
+  profile:
+    displayName: Frontend
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: backend
+  description: Equipe de desenvolvimento Backend
+spec:
+  type: team
+  profile:
+    displayName: Backend
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devops
+  description: Equipe de DevOps
+spec:
+  type: team
+  profile:
+    displayName: DevOps
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bi
+  description: Equipe de Business Intelligence (BI)
+spec:
+  type: team
+  profile:
+    displayName: Business Intelligence
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: qa
+  description: Equipe de Quality Assurance (QA)
+spec:
+  type: team
+  profile:
+    displayName: Quality Assurance
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: lideres
+  description: Grupo de Líderes do LEDSHUB
+spec:
+  type: team
+  profile:
+    displayName: Líderes
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: professores
+  description: Professores e Orientadores
+spec:
+  type: team
+  profile:
+    displayName: Professores
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ia
+  description: Equipe de Inteligência Artificial
+spec:
+  type: team
+  profile:
+    displayName: Inteligência Artificial
+  children: []
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: administrativo
+  description: Equipe Administrativa
+spec:
+  type: team
+  profile:
+    displayName: Administrativo
+  children: []
