@@ -8,6 +8,7 @@ spec:
   profile:
     displayName: Frontend
   children: []
+  members: []
 
 ---
 
@@ -21,6 +22,8 @@ spec:
   profile:
     displayName: Backend
   children: []
+  members:
+    - tadeuaugustocontato
 
 ---
 
@@ -34,6 +37,8 @@ spec:
   profile:
     displayName: DevOps
   children: []
+  members:
+    - tadeuaugustocontato
 
 ---
 
@@ -47,6 +52,7 @@ spec:
   profile:
     displayName: Business Intelligence
   children: []
+  members: []
 
 ---
 
@@ -60,6 +66,7 @@ spec:
   profile:
     displayName: Quality Assurance
   children: []
+  members: []
 
 ---
 
@@ -73,6 +80,7 @@ spec:
   profile:
     displayName: Líderes
   children: []
+  members: []
 
 ---
 
@@ -86,6 +94,7 @@ spec:
   profile:
     displayName: Professores
   children: []
+  members: []
 
 ---
 
@@ -99,6 +108,8 @@ spec:
   profile:
     displayName: Inteligência Artificial
   children: []
+  members:
+    - tadeuaugusto
 
 ---
 
@@ -112,3 +123,4 @@ spec:
   profile:
     displayName: Administrativo
   children: []
+  members: []
