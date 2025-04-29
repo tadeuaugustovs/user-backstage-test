@@ -1,0 +1,226 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: grupos-e-usuarios
+  description: Grupos e usuários do LEDSHUB
+spec:
+  targets:
+    - ./groups.yaml
+    - ./users.yaml
+---
+# Grupos
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: frontend
+  title: Frontend
+spec:
+  type: team
+  profile:
+    displayName: Equipe de Frontend
+  children: []
+  members:
+    - alice
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: backend
+  title: Backend
+spec:
+  type: team
+  profile:
+    displayName: Equipe de Backend
+  children: []
+  members:
+    - bob
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: devops
+  title: DevOps
+spec:
+  type: team
+  profile:
+    displayName: Equipe de DevOps
+  children: []
+  members:
+    - charlie
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bi
+  title: Business Intelligence
+spec:
+  type: team
+  profile:
+    displayName: Equipe de BI
+  children: []
+  members:
+    - diana
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: qa
+  title: Quality Assurance
+spec:
+  type: team
+  profile:
+    displayName: Equipe de QA
+  children: []
+  members:
+    - eve
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: lideres
+  title: Líderes
+spec:
+  type: team
+  profile:
+    displayName: Equipe de Líderes
+  children: []
+  members:
+    - frank
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: professores
+  title: Professores
+spec:
+  type: team
+  profile:
+    displayName: Equipe de Professores
+  children: []
+  members:
+    - grace
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ia
+  title: Inteligência Artificial
+spec:
+  type: team
+  profile:
+    displayName: Equipe de IA
+  children: []
+  members:
+    - heidi
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: administrativo
+  title: Administrativo
+spec:
+  type: team
+  profile:
+    displayName: Equipe Administrativa
+  children: []
+  members:
+    - ivan
+---
+# Usuários
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: alice
+spec:
+  profile:
+    displayName: Alice Frontend
+    email: alice@example.com
+  memberOf: [frontend]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bob
+spec:
+  profile:
+    displayName: Bob Backend
+    email: bob@example.com
+  memberOf: [backend]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: charlie
+spec:
+  profile:
+    displayName: Charlie DevOps
+    email: charlie@example.com
+  memberOf: [devops]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: diana
+spec:
+  profile:
+    displayName: Diana BI
+    email: diana@example.com
+  memberOf: [bi]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: eve
+spec:
+  profile:
+    displayName: Eve QA
+    email: eve@example.com
+  memberOf: [qa]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: frank
+spec:
+  profile:
+    displayName: Frank Líder
+    email: frank@example.com
+  memberOf: [lideres]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: grace
+spec:
+  profile:
+    displayName: Grace Professora
+    email: grace@example.com
+  memberOf: [professores]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: heidi
+spec:
+  profile:
+    displayName: Heidi IA
+    email: heidi@example.com
+  memberOf: [ia]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ivan
+spec:
+  profile:
+    displayName: Ivan Administrativo
+    email: ivan@example.com
+  memberOf: [administrativo]
