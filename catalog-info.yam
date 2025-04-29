@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: grupos-e-usuarios
+  description: Grupos e usuários do LEDSHUB
+spec:
+  targets:
+    - ./groups.yaml
+    - ./users.yaml
