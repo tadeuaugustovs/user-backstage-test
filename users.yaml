@@ -97,3 +97,13 @@ spec:
     displayName: Ivan Administrativo
     email: ivan@example.com
   memberOf: [administrativo]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Luiz
+spec:
+  profile:
+    displayName: Luiz Rojas
+    email: luizfrojas@gmail.com
+  memberOf: [devops]
